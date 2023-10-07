@@ -7,7 +7,7 @@ import '@/i18n/index';
 
 function App() {
     return (
-        <BrowserRouter basename='/chemistry'>
+        <BrowserRouter basename='/bai-chem-portal'>
             <Suspense fallback={<Spin />}>
                 <Routers />
             </Suspense>
