@@ -29,18 +29,11 @@ const Banner: FC<BannerProps> = ({
         if (title.includes('—')) {
             const titleList = title.split('—');
             if (pathname === '/task/conditional') {
-                setNewTitle(
-                    t(titleList[0])
-                    + '—'
-                    + t(titleList[1])
-                    + t('task.menu.subTitle')
-                );
+                // eslint-disable-next-line @typescript-eslint/restrict-plus-operands
+                setNewTitle(t(titleList[0]) + '—' + t(titleList[1]) + t('task.menu.subTitle'));
             } else {
-                setNewTitle(
-                    t(titleList[0])
-                    + '—'
-                    + t(titleList[1])
-                );
+                // eslint-disable-next-line @typescript-eslint/restrict-plus-operands
+                setNewTitle(t(titleList[0]) + '—' + t(titleList[1]));
             }
         } else {
             setNewTitle(t(title));
