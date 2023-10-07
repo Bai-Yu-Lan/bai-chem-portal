@@ -1,5 +1,4 @@
-import React, {FC, useMemo} from 'react';
-import styled from '@emotion/styled';
+import React, {FC} from 'react';
 import {Typography} from 'antd';
 const {Link, Paragraph, Text} = Typography;
 import {P} from '@/constants/index';
