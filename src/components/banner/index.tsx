@@ -30,14 +30,14 @@ const Banner: FC<BannerProps> = ({
             const titleList = title.split('—');
             if (pathname === '/task/conditional') {
                 setNewTitle(
-                    t(titleList[0]) as string
+                    t(titleList[0])
                     + '—'
                     + t(titleList[1]) as string
-                    + t('task.menu.subTitle') as string
+                    + t('task.menu.subTitle')
                 );
             } else {
                 setNewTitle(
-                    t(titleList[0]) as string
+                    t(titleList[0])
                     + '—'
                     + t(titleList[1]) as string
                 );
