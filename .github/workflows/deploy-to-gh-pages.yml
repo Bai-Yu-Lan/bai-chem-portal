@@ -23,6 +23,7 @@ jobs:
           yarn install
           yarn build
           cp build/index.html build/404.html
+          cp CNAME build/CNAME
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
