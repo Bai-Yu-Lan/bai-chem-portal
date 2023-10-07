@@ -1,4 +1,4 @@
-import React, {Suspense, useEffect} from 'react';
+import React, {Suspense} from 'react';
 import {BrowserRouter} from 'react-router-dom';
 import {Spin, ConfigProvider} from 'antd';
 import zhCN from 'antd/locale/zh_CN';

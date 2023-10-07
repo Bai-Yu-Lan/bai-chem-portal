@@ -13,8 +13,8 @@ interface BannerProps {
 }
 
 const Banner: FC<BannerProps> = ({
-    title,
-    subTitle,
+    title = '',
+    subTitle = '',
     titleHidden = false,
     half = false,
     isHome = false,

@@ -5,7 +5,7 @@ import styles from './index.module.less';
 import cdnlogo from '@/assets/svg/cdnlogo.svg';
 import logo2 from '@/assets/images/logo_2.png';
 import shuffle from '@/assets/svg/shuffle.svg';
-import {TASKLIST, QUESTION_LIST, MENULIST} from '@/constants';
+import {TASKLIST, QUESTION_LIST} from '@/constants';
 
 const {Paragraph, Text} = Typography;
 

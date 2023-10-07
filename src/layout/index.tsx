@@ -4,7 +4,6 @@ import Header from './header';
 import {Outlet} from 'react-router';
 import styled from '@emotion/styled';
 
-const {Content} = AntLayout;
 const Main = styled('main')`
     min-height: calc(100vh - 70px);
 `;

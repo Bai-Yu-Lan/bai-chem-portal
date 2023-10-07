@@ -1,5 +1,3 @@
-import {number} from 'echarts';
-
 /* eslint-disable max-len */
 export const propertyData = [
     {
@@ -268,9 +266,6 @@ export const reactData = [
         description: '2023',
     },
 ];
-type MapKey<K extends string[]> = {
-    [p in keyof K]: string;
-};
 
 export const inverseResultData = [
     {

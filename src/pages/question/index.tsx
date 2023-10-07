@@ -1,9 +1,8 @@
 import React, {FC, useMemo} from 'react';
-import email from '@/assets/svg/mail.svg';
 import styled from '@emotion/styled';
 import {Typography} from 'antd';
 const {Link, Paragraph, Text} = Typography;
-import {Image, Indent, P} from '@/constants/index';
+import {P} from '@/constants/index';
 import Banner from '@/components/banner';
 import {useTranslation, Trans} from 'react-i18next';
 import styles from './index.module.less';
@@ -23,13 +22,8 @@ import zengkaipeng from '@/assets/images/zengkaipeng.png';
 import zhangzhimin from '@/assets/images/zhangzhimin.png';
 import yezengyu from '@/assets/images/yezengyu.png';
 
-const Main = styled('main')`
-    margin: 32px 280px 32px;
-`;
-
 const Home: FC = () => {
     const {t} = useTranslation();
-    const lang = useMemo(() => localStorage.getItem('lang') || 'cn', [t]);
 
     return (
         <Typography className="size-16">
