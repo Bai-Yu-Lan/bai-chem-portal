@@ -32,14 +32,14 @@ const Banner: FC<BannerProps> = ({
                 setNewTitle(
                     t(titleList[0])
                     + '—'
-                    + t(titleList[1]) as string
+                    + t(titleList[1])
                     + t('task.menu.subTitle')
                 );
             } else {
                 setNewTitle(
                     t(titleList[0])
                     + '—'
-                    + t(titleList[1]) as string
+                    + t(titleList[1])
                 );
             }
         } else {
