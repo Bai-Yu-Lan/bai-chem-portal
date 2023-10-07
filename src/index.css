@@ -1,0 +1,219 @@
+:root {
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-synthesis: none;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-size-adjust: 100%;
+}
+
+/* Reset style sheet */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+caption,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+    content: '';
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+html,
+body,
+#root {
+    min-width: 1200px;
+    height: 100%;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.table_center {
+    display: flex;
+    justify-content: center;
+}
+
+.table_center table {
+    width: 750px;
+}
+
+.table_center .td_padding {
+    padding: 10px;
+}
+
+.table_center .padding {
+    padding: 10px 5px;
+}
+
+.table_footer {
+    margin: 12px 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.size-14 {
+    font-size: 14px;
+}
+
+.size-16 {
+    font-size: 16px;
+}
+
+.size-18 {
+    font-size: 18px;
+}
+
+.size-20 {
+    font-size: 20px;
+}
+
+.margin-b-12 {
+    margin-bottom: 12px;
+}
+
+.margin-b-16 {
+    margin-bottom: 16px;
+}
+
+.margin-t-16 {
+    margin-top: 16px;
+}
+
+.margin-t-24 {
+    margin-top: 24px;
+}
+
+.margin-t-32 {
+    margin-top: 32px;
+}
+
+.margin-t-0 {
+    margin-top: 0 !impoartant;
+}
+
+.margin-b-0 {
+    margin-bottom: 0 !impoartant;
+}

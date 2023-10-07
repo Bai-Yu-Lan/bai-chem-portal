@@ -1,0 +1,6 @@
+/build/*
+postcss.config.js
+.eslintrc.cjs
+babel.config.js
+craco.config.js
+/mock

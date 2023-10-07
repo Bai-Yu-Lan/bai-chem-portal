@@ -1,0 +1,50 @@
+.button {
+    color: #fff;
+    background: #0057b9;
+    margin-top: 32px;
+}
+.img {
+    cursor: pointer;
+}
+
+.menu_list {
+    background: #0057b9;
+    color: rgba(255, 255, 255, 0.65);
+
+    li {
+        width: 90%;
+        padding: 20px 8px 20px 0;
+    }
+
+    li div {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        span {
+            cursor: pointer;
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+
+    p {
+        background: rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        max-height: 0;
+        opacity: 0;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+
+    .expand {
+        padding: 20px;
+        max-height: 50px;
+        transition: all 0.5s;
+        opacity: 1;
+    }
+    .collapse {
+        max-height: 0;
+        transition: all 0.5s;
+    }
+}
