@@ -32,6 +32,7 @@ module.exports = {
             },
         },
         configure: config => {
+            config.output.publicPath = '/bai-chem-portal/';
             config.devtool = config.mode === 'development' ? 'cheap-module-source-map' : false;
             return config;
         },
