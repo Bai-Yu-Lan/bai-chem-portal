@@ -96,7 +96,7 @@
   "task.conditions.tableTitle1": "Table 1  Illustration of the USPTO-50k self-supervised instruction set",
   "task.conditions.text3": "For the reaction condition generation task in BAI-Chem, evaluations were conducted using metrics such as BLEU (Bilingual Evaluation Understudy), ROUGE-1, ROUGE-L, along with an assessment of reagent prediction accuracy (ACC). The evaluation results are as follows:",
   "task.conditions.tableTitle2": "Table 2  Evaluation Results for Reagent Prediction in Condition Generation",
-  "contactUs.text": "Please send an email to yanyanxu@sjtu.edu.cn in the following format. We will provide you with feedback promptly upon receiving your message. We look forward to hearing from you.",
+  "contactUs.text": "To inquire about the BAI-Chem trial and for any other questions, please send an email to yanyanxu@sjtu.edu.cn following the format below. We will respond to your message promptly and look forward to hearing from you.",
   "contactUs.name": "Your Name",
   "contactUs.email": "Email Address",
   "contactUs.theme": "Subject: Please briefly summarize the purpose or subject of your contact with us.",

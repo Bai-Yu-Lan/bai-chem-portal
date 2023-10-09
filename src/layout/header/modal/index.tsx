@@ -25,7 +25,7 @@ const ConnectModal: FC<ConnectModalProps> = ({open, setFalse}) => {
             width={800}
         >
             <div className={styles.modal}>
-                <h3>
+                <h3 className="margin-b-12">
                     {t('contactUs.text')}
                 </h3>
                 <p>{t('contactUs.name')}</p>
