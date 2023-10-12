@@ -30,7 +30,7 @@ const ConnectModal: FC<ConnectModalProps> = ({open, setFalse}) => {
                 </h3>
                 <p>{t('contactUs.name')}</p>
                 <p>{t('contactUs.email')}</p>
-                <p>{t('ontactUs.theme')}</p>
+                <p>{t('contactUs.theme')}</p>
                 <p>{t('contactUs.content')}</p>
             </div>
         </Modal>
